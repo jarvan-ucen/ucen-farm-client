@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::get('mongodb', 'v1\testController@test');
+Route::get('curl', 'v1\testController@test1');
